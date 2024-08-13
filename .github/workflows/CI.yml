@@ -23,12 +23,11 @@ jobs:
 
     - name: Install dependencies
       run:
-        cd C:\Users\HP\Downloads\ToursandTravelsProject\Tour and Travel portal with admin panel\booking core\booking-core-ultimate-booking-system\booking-core-ultimate-booking-system\booking-core.2.3.0\booking-core.2.3.0\vendor\facade\ignition
+        cd C:\Users\HP\Downloads\ToursandTravelsProject
         npm install
 
     - name: Run tests
 
       run:     
-          cd C:\Users\HP\Downloads\ToursandTravelsProject\Tour and Travel portal with admin panel\booking core\booking-core-ultimate-booking-system\booking-core-ultimate-booking-system\booking-core.2.3.0\booking-core.2.3.0\vendor\facade\ignition
-
+         cd C:\Users\HP\Downloads\ToursandTravelsProject
          npm test
